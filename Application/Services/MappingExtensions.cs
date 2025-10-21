@@ -11,6 +11,7 @@ public static class MappingExtensions
     {
         // TODO: retornar nova instância de ProdutoReadDto usando p (mapping manual inicial).
         // Verifica se o produto é nulo para evitar NullReferenceException.
+        
         // Isso garante maior segurança em chamadas onde o produto pode não ter sido encontrado.
         if (p == null) return null;    
         // Retorna uma nova instância de ProdutoReadDto, preenchendo os campos manualmente a partir da entidade Produto.
