@@ -5,6 +5,7 @@ namespace Application.DTOs;
 // Decidir se campos opcionais (ex: Estoque inicial) precisam de default.
 // Adicionar comentários justificando escolhas no PR.
 
+
 // Escolha de manter o 'record':
 // - Imutabilidade: os DTOs de criação não devem ser alterados depois de criados.
 // - Comparação por valor: Equals/GetHashCode consideram todos os campos, útil para testes ou logs.
